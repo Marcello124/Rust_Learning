@@ -33,5 +33,6 @@ enum UsState {
     Alaska,
 }
 enum Coin {
+    Penny,
     Quarter(UsState)
 }
